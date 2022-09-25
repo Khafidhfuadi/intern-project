@@ -7,10 +7,14 @@
   <div class="header-text">
     <div class="container">
       <div class="row">
-        <div class="offset-xl-3 col-xl-6 offset-lg-2 col-lg-8 col-md-12 col-sm-12">
-          <h1>We provide the best <strong>strategy</strong><br>to grow up your <strong>business</strong></h1>
-          <p>Softy Pinko is a professional Bootstrap 4.0 theme designed by Template Mo
-            for your company at absolutely free of charge</p>
+        <div class="col-md-12 col-sm-12">
+          <div class="firstTittle">
+            <h2>We provide the best <strong>strategy</strong><br>to grow up your <strong>business</strong></h2>
+            <p>Softy Pinko is a professional Bootstrap 4.0 theme designed by Template Mo
+              for your company at absolutely free of charge </p>
+          </div>
+          <br>
+          <br>
           <a href="#features" class="main-button-slider">Discover More</a>
         </div>
       </div>
@@ -27,7 +31,7 @@
       <div class="col-lg-12">
         <div class="row">
           <!-- ***** Features Small Item Start ***** -->
-          <div class="col-lg-4 col-md-6 col-sm-6 col-12" data-scroll-reveal="enter bottom move 50px over 0.6s after 0.2s">
+          <div class="firstCard" data-scroll-reveal="enter bottom move 50px over 0.6s after 0.2s">
             <div class="features-small-item">
               <div class="icon">
                 <i><img src="<?php echo get_theme_file_uri("assets/images/featured-item-01.png"); ?>" alt=""></i>
@@ -39,7 +43,7 @@
           <!-- ***** Features Small Item End ***** -->
 
           <!-- ***** Features Small Item Start ***** -->
-          <div class="col-lg-4 col-md-6 col-sm-6 col-12" data-scroll-reveal="enter bottom move 50px over 0.6s after 0.4s">
+          <div class="firstCard" data-scroll-reveal="enter bottom move 50px over 0.6s after 0.4s">
             <div class="features-small-item">
               <div class="icon">
                 <i><img src="<?php echo get_theme_file_uri("assets/images/featured-item-01.png"); ?>" alt=""></i>
@@ -51,7 +55,7 @@
           <!-- ***** Features Small Item End ***** -->
 
           <!-- ***** Features Small Item Start ***** -->
-          <div class="col-lg-4 col-md-6 col-sm-6 col-12" data-scroll-reveal="enter bottom move 50px over 0.6s after 0.6s">
+          <div class="firstCard" data-scroll-reveal="enter bottom move 50px over 0.6s after 0.6s">
             <div class="features-small-item">
               <div class="icon">
                 <i><img src="<?php echo get_theme_file_uri("assets/images/featured-item-01.png"); ?>" alt=""></i>
@@ -130,42 +134,42 @@
 
       <!-- ***** Mini Box Start ***** -->
       <div class="row">
-        <div class="col-lg-2 col-md-3 col-sm-6 col-6">
+        <div class="col-lg-4 col-md-3 col-sm-6 col-6">
           <a href="#" class="mini-box">
             <i><img src="assets/images/work-process-item-01.png" alt=""></i>
             <strong>Get Ideas</strong>
             <span>Godard pabst prism fam cliche.</span>
           </a>
         </div>
-        <div class="col-lg-2 col-md-3 col-sm-6 col-6">
+        <div class="col-lg-4 col-md-3 col-sm-6 col-6">
           <a href="#" class="mini-box">
             <i><img src="assets/images/work-process-item-01.png" alt=""></i>
             <strong>Sketch Up</strong>
             <span>Godard pabst prism fam cliche.</span>
           </a>
         </div>
-        <div class="col-lg-2 col-md-3 col-sm-6 col-6">
+        <div class="col-lg-4 col-md-3 col-sm-6 col-6">
           <a href="#" class="mini-box">
             <i><img src="assets/images/work-process-item-01.png" alt=""></i>
             <strong>Discuss</strong>
             <span>Godard pabst prism fam cliche.</span>
           </a>
         </div>
-        <div class="col-lg-2 col-md-3 col-sm-6 col-6">
+        <div class="col-lg-4 col-md-3 col-sm-6 col-6">
           <a href="#" class="mini-box">
             <i><img src="assets/images/work-process-item-01.png" alt=""></i>
             <strong>Revise</strong>
             <span>Godard pabst prism fam cliche.</span>
           </a>
         </div>
-        <div class="col-lg-2 col-md-3 col-sm-6 col-6">
+        <div class="col-lg-4 col-md-3 col-sm-6 col-6">
           <a href="#" class="mini-box">
             <i><img src="assets/images/work-process-item-01.png" alt=""></i>
             <strong>Approve</strong>
             <span>Godard pabst prism fam cliche.</span>
           </a>
         </div>
-        <div class="col-lg-2 col-md-3 col-sm-6 col-6">
+        <div class="col-lg-4 col-md-3 col-sm-6 col-6">
           <a href="#" class="mini-box">
             <i><img src="assets/images/work-process-item-01.png" alt=""></i>
             <strong>Launch</strong>
@@ -197,9 +201,9 @@
     </div>
     <!-- ***** Section Title End ***** -->
 
-    <div class="row">
+    <div class="row testiCardContainer">
       <!-- ***** Testimonials Item Start ***** -->
-      <div class="col-lg-4 col-md-6 col-sm-12">
+      <div class="col-lg-4 col-md-6 col-sm-12 testiCard">
         <div class="team-item">
           <div class="team-content">
             <i><img src="assets/images/testimonial-icon.png" alt=""></i>
@@ -217,7 +221,7 @@
       <!-- ***** Testimonials Item End ***** -->
 
       <!-- ***** Testimonials Item Start ***** -->
-      <div class="col-lg-4 col-md-6 col-sm-12">
+      <div class="col-lg-4 col-md-6 col-sm-12 testiCard">
         <div class="team-item">
           <div class="team-content">
             <i><img src="assets/images/testimonial-icon.png" alt=""></i>
@@ -235,7 +239,7 @@
       <!-- ***** Testimonials Item End ***** -->
 
       <!-- ***** Testimonials Item Start ***** -->
-      <div class="col-lg-4 col-md-6 col-sm-12">
+      <div class="col-lg-4 col-md-6 col-sm-12 testiCard">
         <div class="team-item">
           <div class="team-content">
             <i><img src="assets/images/testimonial-icon.png" alt=""></i>
