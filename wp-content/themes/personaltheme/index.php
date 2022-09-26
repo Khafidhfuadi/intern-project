@@ -437,7 +437,7 @@
       </div>
       <div class="offset-lg-3 col-lg-6">
         <div class="center-text">
-          <p>Integer molestie aliquam gravida. Nullam nec arcu finibus, imperdiet nulla vitae, placerat nibh. Cras maximus venenatis molestie.</p>
+          <p>Integer aliquam gravida. Nullam nec arcu finibus, imperdiet nulla vitae, placerat nibh. Cras maximus venenatis molestie.</p>
         </div>
       </div>
     </div>
