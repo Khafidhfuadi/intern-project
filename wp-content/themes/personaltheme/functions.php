@@ -11,7 +11,10 @@ function personal_style()
 {
   $theme_data = wp_get_theme();
   wp_enqueue_style('main-style', get_theme_file_uri('assets/css/templatemo-softy-pinko.css'), '', $theme_data['version'], 'all');
-  wp_enqueue_style('custom-style', get_theme_file_uri('assets/css/customized.css'), '', $theme_data['version'], 'all');
+  add_action('wp_enqueue_scripts', 'addcssAndScripts');
+  if (is_home()) {
+    wp_enqueue_style('custom-style', get_theme_file_uri('assets/css/customized.css'), '', $theme_data['version'], 'all');
+  }
   wp_enqueue_style('boot', get_theme_file_uri('assets/css/bootstrap.min.css'), rand(111, 9999), 'all');
   // wp_enqueue_style('style', get_theme_file_uri('assets/css/templatemo-softy-pinko.css'), rand(111, 9999), 'all');
   wp_enqueue_style('font', get_theme_file_uri('assets/css/font-awesome.css'), rand(111, 9999), 'all');
