@@ -551,7 +551,7 @@
   <div class="map">
     <h1>Lokasi Cabang Perusahaan</h1>
     <div class="mapImage">
-      <?php echo do_shortcode('[display-map id="71"]'); ?>
+      <?php echo do_shortcode('[wpgmza id="1"]'); ?>
     </div>
   </div>
 </section>
