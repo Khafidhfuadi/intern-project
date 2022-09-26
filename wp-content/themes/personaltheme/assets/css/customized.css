@@ -1,0 +1,38 @@
+.header-text h2 {
+  color: white;
+}
+.header-area .main-nav {
+  background: #fff;
+  width: 100%;
+}
+.home-feature .col-lg-12 .row {
+  display: flex;
+  flex-direction: column;
+}
+.firstCard {
+  width: 100%;
+  border-radius: 12%;
+}
+.features-small-item {
+  border: 5px solid #8460eb;
+  border-radius: 12%;
+}
+.testiCardContainer {
+  background: #8460eb;
+  border-radius: 12%;
+  padding-top: 45px;
+  padding-bottom: 45px;
+}
+.testiCard {
+  height: 330px;
+}
+.team-item {
+  height: 330px;
+}
+.firstTittle {
+  display: flex;
+  justify-content: space-between;
+}
+.firstTittle p {
+  width: 30%;
+}
