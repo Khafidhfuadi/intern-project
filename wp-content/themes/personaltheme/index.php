@@ -525,6 +525,12 @@
       <!-- ***** Contact Form End ***** -->
     </div>
   </div>
+  <div class="map">
+    <h1>Lokasi Cabang Perusahaan</h1>
+    <div class="mapImage">
+      <?php echo do_shortcode('[display-map id="71"]'); ?>
+    </div>
+  </div>
 </section>
 <!-- ***** Contact Us End ***** -->
 
