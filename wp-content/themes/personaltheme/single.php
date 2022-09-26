@@ -21,8 +21,8 @@ if (have_posts()) {
           <!-- ***** Testimonials Item Start ***** -->
           <div class="col-lg-12 col-md-12 col-sm-12">
             <div class="team-item">
-              <div class="team-content">
-                <p><?php the_content() ?></p>
+              <div class="team-content p-3">
+                <?php the_content() ?>
                 <div class="user-image">
                   <img src="<?php get_theme_file_uri("http://placehold.it/60x60") ?>" alt="">
                 </div>

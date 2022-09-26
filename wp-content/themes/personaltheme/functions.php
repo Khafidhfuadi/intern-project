@@ -26,4 +26,5 @@ function personal_style()
 }
 
 
+add_action('wp_enqueue_style', 'personal_style');
 add_action('wp_enqueue_scripts', 'personal_style');
