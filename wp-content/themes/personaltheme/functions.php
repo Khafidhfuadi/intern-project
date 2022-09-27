@@ -7,6 +7,10 @@ function theme_setup()
 
 add_action('after_setup_theme', 'theme_setup');
 
+register_nav_menus(array(
+  'main_menu' => __('Main Menu', 'personal-theme'),
+));
+
 function personal_style()
 {
   $theme_data = wp_get_theme();
